@@ -1,19 +1,30 @@
-gitignore_content <- c(
-  "# API Keys — NEVER push these",
-  ".env",
-  "",
-  "# Large data files",
-  "data/raw/",
-  "data/processed/",
-  "",
-  "# R temporary files",
-  ".Rhistory",
-  ".RData",
-  ".Rproj.user/",
-  "",
-  "# Logs",
-  "logs/"
-)
+# Environment files
+.env
+.env.*
 
-writeLines(gitignore_content, ".gitignore")
-cat("✅ .gitignore created — API keys are protected!\n")
+# R / RStudio
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# R project files (optional - keep if you want)
+# *.Rproj
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package/build/cache folders
+renv/library/
+renv/staging/
+renv/python/
+.Rcache/
+cache/
