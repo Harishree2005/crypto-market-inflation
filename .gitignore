@@ -1,0 +1,19 @@
+gitignore_content <- c(
+  "# API Keys — NEVER push these",
+  ".env",
+  "",
+  "# Large data files",
+  "data/raw/",
+  "data/processed/",
+  "",
+  "# R temporary files",
+  ".Rhistory",
+  ".RData",
+  ".Rproj.user/",
+  "",
+  "# Logs",
+  "logs/"
+)
+
+writeLines(gitignore_content, ".gitignore")
+cat("✅ .gitignore created — API keys are protected!\n")
