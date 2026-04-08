@@ -16,7 +16,7 @@
 
 | Field | Details |
 |-------|---------|
-| **Name** | Harishree P |
+| **Name** | Hari Shree P |
 | **Course** | Programming for Data Science — BCSE207L |
 | **Institution** | Vellore Institute of Technology (VIT), Vellore |
 | **Faculty** | Dr. Deepika J |
