@@ -28,7 +28,6 @@
 
 ## 📌 Problem Statement
 
-> **"How do macroeconomic indicators — CPI inflation and interest rates — influence cryptocurrency market behavior across 200 coins? Can we forecast Bitcoin prices and cluster coins by behavioral patterns using real-time API data?"**
 
 This project performs end-to-end data science on live cryptocurrency market data — from API ingestion and preprocessing, through exploratory analysis and predictive modelling, to an interactive Power BI dashboard with embedded R visuals.
 
