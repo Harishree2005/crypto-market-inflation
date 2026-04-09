@@ -142,8 +142,8 @@ crypto-market-intelligence/
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/harishreep/crypto-market-intelligence.git
-cd crypto-market-intelligence
+git clone https://github.com/Harishree2005/crypto-market-inflation.git
+cd crypto-market-inflation
 ```
 
 ### Step 2 — Set Up API Keys
